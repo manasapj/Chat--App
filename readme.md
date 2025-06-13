@@ -27,11 +27,18 @@ NODE_ENV=development
 ### Build the app
 
 ```shell
-npm run build
+cd frontend
+npm install
+cd backend
+npm install
 ```
 
 ### Start the app
 
 ```shell
+cd frontend
+npm run dev
+cd backend
 npm start
+
 ```
